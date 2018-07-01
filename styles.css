@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    min-height: 100%;
+     background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top, #1e5799 0%, #ff3f3f 0%, #ef47ba 45%, #ee4af7 98%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #1e5799 0%,#ff3f3f 0%,#ef47ba 45%,#ee4af7 98%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #1e5799 0%,#ff3f3f 0%,#ef47ba 45%,#ee4af7 98%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ee4af7',GradientType=0 );
+background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    margin-top: 40px;
+    text-align: center;
+    padding-right: 40px;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    margin-top: 40px;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #020202;
+    color: #251212;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
